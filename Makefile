@@ -1,6 +1,8 @@
-all: main
+# VARIABLES
 
 CXXFLAGS="-std=c++11"
+
+# BUILD SYSTEM
 
 main: main.o extra.o
         g++ main.o extra.o -o main # Compilation main file
